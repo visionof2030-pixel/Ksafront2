@@ -1848,7 +1848,7 @@ async function activateTool() {
     }
 
     try {
-        const res = await fetch("https://ksa-w073.onrender.com/activate", {
+        const res = await fetch("https://nassrbackend.onrender.com/activate", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -2118,7 +2118,7 @@ let currentHijriDate = '';
 let currentGregorianDate = '';
 
 // رابط خادم الذكاء الاصطناعي
-const backendAIUrl = 'https://ksa-w073.onrender.com/generate';
+const backendAIUrl = 'https://nassrbackend.onrender.com/generate';
 
 // ==================== دوال التحويل والتواريخ ====================
 async function convertHijriToGregorian(hijriDate) {
